@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Flame';
+    src: url("/fonts/Flame-Bold.28425e3.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Flame';
+    src: url(/fonts/Flame.c3f0a46.ttf) format("truetype");
+}
+body{
+    background-color: #502314;
+    font-family: 'Flame';
+}
+
+nav{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    background-color: #F5EBDC;
+    padding: 11px 50px;
+}
+
+nav img{
+    height: 48px;
+    margin: 0px 20px;
+}
