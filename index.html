@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "style.css">
-    <link rel = "icon" href="/images/Burger-King-logo.svg">
+    <link rel = "icon" href="/images/burger-king-logo.png">
     <title>Home page - BK Nigeria</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
         <div>
             <img src="/images/Burger-King-logo.svg"  alt="" height="50">
         </div>
-        <div>
+        <div class="boxlinks">
             <a href="/order.html" class="links">Order</a>
             <a href="" class="links">Menu</a>
             <a href="" class="links">Offers</a>
@@ -22,7 +22,13 @@
         </div>
     </nav>
     <main>
-        <section class="hero"></section>
+        <section class="hero">
+          <div class="slideshow">
+                <img src="/images/Magic-web.png" class="slide" />
+                <img src="images/Have-it-your-Way-edit-2.jpg" class="slide" />
+                <img src="images/Have-it-your-Way-web.jpg" class="slide" />
+          </div>
+        </section>
         <section class="locator">
             <div class="box1">
                 <div class="mini1">
@@ -36,61 +42,82 @@
                 </div>
             </div>
         </section>
-        <section class="links">
+
+        <section class="DownloadLinks">
             <div>
-                <img src="/images/new-phone.png">
+                <img src="/images/new-phone.png" class="new-phone">
             </div>
-            <div>
-                <h1>
+            <div class="new-google-copy">
+                <div class="apple1-msg">
                     Download our app and discover the incredible offers we have for you!
-                </h1>
-                <img src="/images/new-google-copy.png">
-                <img src="/images/new-apple.png">
-                <h4>
+                </div>
+                <img src="/images/new-google-copy.png" class="home-page">
+                <img src="/images/new-apple.png" class="home-page">
+                <div class="apple2-msg">
                     Apple and the Apple logo are trademarks of Apple Inc., registered in the US and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Terms and Conditions apply.
-                </h4>
+                </div>
             </div>
         </section>
+
         <section class="news">
-            <h1>News</h1>
-            <div>
-                <div>
-                    <div></div>
+            <div class="h1" id="news-big-text">News</div>
+            <div class="news-imgs">
+                <div class="news-big-text">
+                    <img src="/images/meet-the-long-kings.jpg" alt="" class="news-img">
                     <div>
-                        <h1>WHAT'S BETTER THAN KING?</h1>
-                        <h3>Burger King is now Grilling in Nigeria and the Whopper has a new Home!!</h3>
+                        <div class="h1">WHAT'S BETTER THAN ONE KING?</div>
+                        <div class="text-box">Burger King is now Grilling in Nigeria and the Whopper has a new Home!!</div>
                     </div>
                 </div>
-                <div>
-                    <div></div>
+                <div class="news-big-text">
+                    <img src="/images/New-Sides-Intro-Blog-1.jpg" class="news-img">
                     <div>
-                        <h1>NEW SIDES ALERT!!!</h1>
-                        <h3>Burger King has introduced NEW SIDES to the BK SIDES GENG</h3>
+                        <div class="h1">NEW SIDES ALERT!!!</div>
+                        <div class="text-box">Burger King has introduced NEW SIDES to the BK SIDES GENG</div>
                     </div>
                 </div>
-                <div>
-                    <div></div>
+                <div class="news-big-text">
+                    <img src="/images/Artboard-15-20.jpg" class="news-img">
                     <div>
-                        <h1>BudgEat Menu Is Back!</h1>
-                        <h3>BudgEat Menu Is Back! Ball on a BudgEat only at Burger King.</h3>
+                        <div class="h1">BudgEat Menu Is Back!</div>
+                        <div class="text-box">BudgEat Menu Is Back! Ball on a BudgEat only at Burger King.</div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <div>
-            <h1></h1>
-            <div></div>
+        <div class="footer-1">
+            <h1 class="footer-logo" id="footer1">BURGER KING.</h1>
+            <div class="footer-links">
+                <div class="footer-link">
+                    <h1 id="footer1">BK® INFO</h1>
+                    <a class="footer2" href="/pages/aboutbk.html">About BK</a><br>
+                    <a class="footer2">Privacy policy</a><br>
+                    <a class="footer2">Reach out to US</a><br>
+                    <a class="footer2">Terms and Conditions</a>
+                </div>
+                <div class="footer-link">
+                    <h1 id="footer1">BK® Cares</h1>
+                    <a class="footer2">Allergens Info</a><br>
+                    <a class="footer2">Food Quality</a><br>
+                    <a class="footer2">Responsibility</a>
+                </div>
+                <div class="footer-link">
+                    <h1 id="footer1">BK® and YOU</h1>
+                    <a class="footer2">Careers</a><br>
+                    <a class="footer2">Privacy policy</a>
+                </div>
+            </div>
         </div>
         <hr>
-        <div>
-            <h3>BURGER KING</h3>
-            <div>
-                <img src="/images/facebook.png">
-                <img src="/images/instagram.png" alt="">
-                <img src="/images/twitter.png" alt="">
-                <img src="/images/youtube_4494467.png" alt="">
+        <div class="footer-2">
+            <div>TM & Copyright 2021 Burger King Corporation. All Rights Reserved.</div>
+            <div class="social-icon">
+                <a href=""><img src="/images/facebook.png" class="social-icons"></a>
+                <a href=""><img src="/images/instagram.png" alt="" class="social-icons"></a>
+                <a href=""><img src="/images/twitter.png" alt="" class="social-icons"></a>
+                <a href=""><img src="/images/youtube (1).png" alt="" class="social-icons"></a>
             </div>
         </div>
     </footer>
