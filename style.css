@@ -287,10 +287,16 @@ hr{
   border-radius: 15px;
   padding: 8px;
 }
-
+.active:hover{
+  color: #DB4944; /* Burger King's red */
+  background-color: #ECDFD0;
+  border-radius: 15px;
+  padding: 8px;
+}
 .active{
   color: white;
   background-color: #D72300;
   border-radius: 15px;
   padding: 10px;
 }
+

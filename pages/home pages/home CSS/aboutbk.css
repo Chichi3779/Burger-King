@@ -1,0 +1,28 @@
+.about-main{
+    position: relative;
+    top: 11vh;
+    height: 115vh ;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-div{
+    color: #502314;
+    height: 400px;
+    width: 630px;
+    margin: 100px 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-div h1{
+    font-family: 'flame-bold';
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.about-div div{
+    line-height: 1.5;
+    font-size: 15px;
+    color: #714b3c;
+    
+}

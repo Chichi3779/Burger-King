@@ -1,0 +1,28 @@
+/* offers page styling */
+
+.offers-main{
+    font-family: 'flame-bold';
+    height: 65vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers-div{
+    font-size: 40px;
+    color: #502314;
+}
+
+/* orders page stying */
+.order-main{
+    font-family: 'flame-bold';
+    height: 65vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-div{
+    font-size: 40px;
+    color: #502314;
+}
