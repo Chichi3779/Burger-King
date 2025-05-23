@@ -1,0 +1,31 @@
+*{
+    font-family: "flame";
+}
+
+.privacy-1{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(/images/header-privacy-1.gif);
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    padding: 90px 90px;
+}
+.privacy-2{
+    color: #714B3C;
+    padding: 60px;
+    width: 100vw;
+    height: auto;
+}
+
+.privacy-2-0{
+    height: 30vh;
+    border-bottom: 3px solid #D7C7B5;
+    margin: 20px 0px;
+}
+.privacy-2-1{
+   margin: 20px 0px;
+}
+.privacy-2-2{
+   line-height: 6.0;
+}
